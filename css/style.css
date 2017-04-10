@@ -5,6 +5,27 @@ body {
     margin:0;
 	}
 
+a:link {
+    color: #CECECE;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #CECECE;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFFFF;
+    border-top: 4px solid white;
+    padding-top: 8px;
+}
+
+a:active {
+    color: #000000;
+    text-decoration: none;
+}
+
 .header {
     background-image: url("../img/bg.jpg");
     background-size: cover;
