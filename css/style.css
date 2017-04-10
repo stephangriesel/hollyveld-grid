@@ -1,7 +1,15 @@
 body {
 		background-color:#000000;
         color:#CECECE;
+        font-family: 'Lato', sans-serif;
+        margin:0;
 	}
+
+.header {
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    margin:0;
+}
 
 .wrapper {
    display: grid;
@@ -15,7 +23,6 @@ body {
 }
 
 .menu {
-
    display:grid;
    position: relative;
    color: #000;
@@ -43,6 +50,10 @@ ul {
 
 @media only screen and (min-width: 881px) {
 
+.header {
+    height:300px;
+}
+
 .wrapper {
     /* border: 2px solid #0C0C0C; */
     border-radius: 5px;
@@ -59,11 +70,6 @@ ul {
    display: grid;
    grid-template-rows: repeat(2,1fr);
    grid-gap: 10px;
-}
-
-
-.header {
-  height:auto;
 }
 
 .logo {
