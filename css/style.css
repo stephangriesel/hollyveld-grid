@@ -40,6 +40,13 @@ a:active {
    background-image: none;
 }
 
+/* Span elements */
+
+.strong-text {
+    font-weight: 900;
+    font-size: 22px;
+}
+
 /* Header */
 
 .header {
@@ -92,6 +99,10 @@ ul {
     padding:20px;
 }
 
+.two-left-inside {
+    padding-bottom: 20px;
+}
+
 /* Three column */
 
 .three-column-content {
@@ -100,8 +111,17 @@ ul {
 
 .three-left-inside {
     text-align: center; /* its working but I DONT WANT THIS!!!! research */
+    padding-bottom: 20px;
 }
 
+.three-middle-inside {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.three-right-inside {
+    text-align: center;
+}
 /* .content {
     display:grid;
     justify-content: center;
@@ -114,6 +134,8 @@ ul {
   height:100px;
   display:grid;
   grid-row-end:5;
+  text-align: center;
+  padding:50px;
 }
 
 @media only screen and (min-width: 881px) {
