@@ -23,9 +23,7 @@ a:visited {
 }
 
 a:hover {
-    color: #FFFFFF;
-    border-top: 4px solid white;
-    padding-top: 8px;
+    color: #bababa;
 }
 
 a:active {
@@ -96,11 +94,16 @@ ul {
 /* Two Column */
 
 .two-column-content {
-    padding:20px;
+    margin: 20px;
 }
 
 .two-left-inside {
+    padding-bottom:20px;
+}
+
+.two-right-inside {
     padding-bottom: 20px;
+    text-align: center;
 }
 
 /* Three column */
