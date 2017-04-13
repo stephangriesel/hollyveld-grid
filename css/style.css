@@ -1,5 +1,10 @@
 /* Main Layout */
 
+html {
+    display: grid;
+}
+
+
 body {
     background-color:#000000;
     color:#CECECE;
@@ -44,24 +49,8 @@ a:active {
 .logo {
     display: grid;
     justify-content: center;
+    margin:20px;
 }
-
-/* Content */
-
-/* One column */
-
-.main-content {
-    display: grid;
-    grid-template-rows: repeat(1, 1fr);
-    justify-content: center;
-    align-content: center;
-}
-
-/* .content {
-    display:grid;
-    justify-content: center;
-    align-content: center;
-} */
 
 /* Menu */
 
@@ -70,6 +59,7 @@ a:active {
    position: relative;
    color: #000;
    justify-content: center;
+   padding-bottom:30px;
 }
 
 ul {
@@ -84,6 +74,39 @@ ul {
     list-style: none;
     padding:10px;
 }
+
+/* Content */
+
+/* One column */
+
+.main-content {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+    align-content: center;
+}
+
+/* Two Column */
+
+.two-column-content {
+    padding:20px;
+}
+
+/* Three column */
+
+.three-column-content {
+    padding:20px;
+}
+
+.three-left-inside {
+    text-align: center; /* its working but I DONT WANT THIS!!!! research */
+}
+
+/* .content {
+    display:grid;
+    justify-content: center;
+    align-content: center;
+} */
 
 /* Footer */
 
@@ -120,9 +143,9 @@ ul {
 
 /* Header */
 
-.header {
+/*.header {
     height:200px;
-}
+}*/
 
 .logo {
     display: grid;
@@ -162,8 +185,7 @@ ul {
 }
 
 .three-left-inside {
-    display:grid;
-    align-items: center;
+    text-align: center;
 }
 
 .three-middle-inside {
