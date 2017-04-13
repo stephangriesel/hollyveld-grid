@@ -1,10 +1,5 @@
 /* Main Layout */
 
-html {
-    display: grid;
-}
-
-
 body {
     background-color:#000000;
     color:#CECECE;
@@ -31,10 +26,11 @@ a:active {
     text-decoration: none;
 }
 
+/* Grid Layout Starts Here */
+
 .wrapper {
    display: grid;
    grid-template-rows: repeat(1,1fr);
-   /* grid-gap: 40px;*/
    background-image: none;
 }
 
@@ -80,15 +76,18 @@ ul {
     padding:10px;
 }
 
-/* Content */
+/* Main Page Content */
+
 
 /* One column */
 
 .main-content {
+    align-content: center;
     display: grid;
     grid-template-rows: repeat(1, 1fr);
     justify-content: center;
-    align-content: center;
+    margin:40px;
+    text-align:center;
 }
 
 /* Two Column */
@@ -134,11 +133,12 @@ ul {
 /* Footer */
 
 .footer {
-  height:100px;
-  display:grid;
-  grid-row-end:5;
-  text-align: center;
-  padding:50px;
+    display: grid;
+    height:100px;
+    grid-row-end:4;
+    justify-content: center;
+    padding:50px;
+    font-size: 18px;
 }
 
 @media only screen and (min-width: 881px) {
@@ -224,8 +224,9 @@ ul {
 /* Footer */
 
 .footer {
-  height:100px;
-  grid-row-end:5;
-  justify-content: center;
+    height:100px;
+    grid-row-end:4;
+    justify-content: center;
+    font-size: 14px;
 }
 
