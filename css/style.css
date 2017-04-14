@@ -97,6 +97,7 @@ ul {
 /* Two Column */
 
 .two-column-content {
+    grid-row-gap:10px;
     margin: 20px;
 }
 
@@ -198,11 +199,37 @@ ul {
 
 /* Content Area */
 
+/* one column */
+
+.main-content {
+    align-content: center;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+    margin:40px;
+    padding:20px;
+    text-align:center;
+    border-radius: 10px;
+    background-color: rgba(127, 138, 148, 0.6);
+}
+
 /* Two column */
 
 .two-column-content {
   display:grid;
   grid-template-columns: repeat(2,1fr);
+}
+
+.two-left-inside {
+    border-radius: 20px 0 0 20px;
+    padding: 20px 60px 20px 60px;
+    background-color:rgba(146, 118, 118, 0.6);
+}
+
+.two-right-inside {
+    border-radius: 0 20px 20px 0;
+    background-color: rgba(127, 138, 148, 0.6);
+    padding: 20px 60px 20px 60px;
 }
 
 /* Three column */
