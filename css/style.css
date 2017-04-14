@@ -2,10 +2,14 @@
 
 body {
     background-color:#000000;
-    color:#CECECE;
+    color:#FFFFFF;
     font-family: 'Lato', sans-serif;
     margin:0;
 	}
+
+main {
+    width:100%;
+}
 
 a:link {
     color: #CECECE;
@@ -118,7 +122,6 @@ ul {
 
 .three-middle-inside {
     text-align: center;
-    padding-bottom: 20px;
 }
 
 .three-right-inside {
@@ -214,11 +217,15 @@ ul {
 }
 
 .three-middle-inside {
-
+    padding: 20px 60px 20px 60px;
+    background-color:rgba(146, 118, 118, 0.6);
+    border-radius: 20px 0 0 20px;
 }
 
 .three-right-inside {
-
+    padding: 20px 60px 20px 60px;
+    background-color: rgba(127, 138, 148, 0.6);
+    border-radius: 0 20px 20px 0;
 }
 
 /* Footer */
