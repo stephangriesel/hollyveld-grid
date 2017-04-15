@@ -36,6 +36,8 @@ a:active {
    display: grid;
    grid-template-rows: repeat(1,1fr);
    background-image: none;
+   grid-template-columns: minmax(min-content,1000px);
+   justify-content: center;
 }
 
 /* Span elements */
@@ -145,7 +147,13 @@ ul {
     font-size: 18px;
 }
 
-@media only screen and (min-width: 881px) {
+@media only screen and (min-width: 750px) {
+
+html, body {
+    height:100%:
+    width:100;
+    margin:0;
+}
 
 /* Main layout */
 
@@ -190,8 +198,7 @@ ul {
 .menu {
    position: absolute;
    top: 20px;
-   left: 40%;
-   right:5%;
+   left: 50%;
    border-radius:5px;
    color: #000;
    padding: 10px;
@@ -217,7 +224,7 @@ ul {
 
 .two-column-content {
   display:grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: 2fr 1fr;
 }
 
 .two-left-inside {
@@ -240,6 +247,7 @@ ul {
 }
 
 .three-left-inside {
+    padding-top: 80px;
     text-align: center;
 }
 
