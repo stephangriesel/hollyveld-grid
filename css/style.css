@@ -7,9 +7,9 @@ body {
     margin:0;
 	}
 
-main {
+/* main {
     width:100%;
-}
+}*/
 
 a:link {
     color: #CECECE;
@@ -59,6 +59,10 @@ a:active {
     margin:20px;
 }
 
+.logo img {
+    width:100%;
+}
+
 /* Menu */
 
 .menu {
@@ -83,7 +87,6 @@ ul {
 }
 
 /* Main Page Content */
-
 
 /* One column */
 
@@ -130,11 +133,6 @@ ul {
 .three-right-inside {
     text-align: center;
 }
-/* .content {
-    display:grid;
-    justify-content: center;
-    align-content: center;
-} */
 
 /* Footer */
 
@@ -147,28 +145,7 @@ ul {
     font-size: 18px;
 }
 
-@media only screen and (min-width: 750px) {
-
-html, body {
-    height:100%:
-    width:100;
-    margin:0;
-}
-
-/* Main layout */
-
-.wrapper {
-    /* border: 2px solid #0C0C0C; */
-    border-radius: 5px;
-    background-color: #000000;
-}
-
-/*.wrapper > div {
-    /* border: 2px solid #808080;
-    border-radius: 5px;
-    background-color: #CEC#000000;
-    padding: 1em;
-}*/
+@media only screen and (min-width: 826px) {
 
 .wrapper {
    display: grid;
@@ -179,10 +156,6 @@ html, body {
 }
 
 /* Header */
-
-/*.header {
-    height:200px;
-}*/
 
 .logo {
     display: grid;
