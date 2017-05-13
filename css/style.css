@@ -48,7 +48,12 @@ a:active {
 }
 
 .quote-signs {
-    font-size:40px;
+    font-size:50px;
+    
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+    line-height:1px;
 }
 
 .quote-text {
@@ -142,6 +147,7 @@ ul {
 
 .three-right-inside {
     text-align: center;
+    padding-top:30px;
 }
 
 /* Footer */
